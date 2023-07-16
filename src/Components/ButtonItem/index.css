@@ -1,0 +1,26 @@
+.button {
+  background-color: transparent;
+  color: #db1c48;
+  border-color: #db1c48;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.activeButton {
+  background-color: #db1c48;
+  border-radius: 10px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.buttonList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.buttonItem {
+  list-style-type: none;
+  margin: 20px;
+}
